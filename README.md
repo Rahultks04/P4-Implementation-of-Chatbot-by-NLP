@@ -97,3 +97,5 @@ You can customize these intents by editing the code to add new genres or modify 
 - **Scikit-learn**: For implementing intent classification.
 - **Streamlit**: For a simple and intuitive user interface.
 
+---
+Replace <repository-url> and <repository-directory> with the actual URL of your repository and the name of the directory where the project is located. Adjust any sections as necessary to better fit your project's specifics.
