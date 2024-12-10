@@ -28,34 +28,39 @@ This project implements a **library chatbot** using **Natural Language Processin
 
 ### 1. Clone the Repository
 
+```bash
 git clone <repository-url>
 cd <repository-directory>
-
-
+```
 ### 2. Create a Virtual Environment (Optional but Recommended)
 
+```bash
 python -m venv venv
+```
+On macOS/Linux:
 
-On macOS/Linux
-
+```bash
 source venv/bin/activate
+```
+On Windows:
 
-On Windows
-
+```bash
 venv\Scripts\activate
+```
 
+### 3. Install Required Packages:
 
-### 3. Install Required Packages
-
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 4. Download NLTK Data
 
-Launch Python and download the required NLTK data:
+Launch Python and download the required NLTK data
 
+```bash
 import nltk nltk.download('punkt')
-
+```
 
 ---
 
@@ -63,8 +68,9 @@ import nltk nltk.download('punkt')
 
 ### Run the chatbot application:
 
+```bash
 streamlit run app.py
-
+```
 
 ### Interaction:
 
